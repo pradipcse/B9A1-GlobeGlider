@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared styles */
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary {
+    width: 135px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    font-size: 1.1rem;
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+
+
+
+/* header style start here */
+.navigation-containar {
+    width: 81%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+.site-name-icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+#icon {
+    display: none;
+}
+
+.navigation-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-links a {
+    color: #424247;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.navigation-links .Home,
+.Glider {
+    color: #FF5400;
+}
+
+/* bannar-section */
+.bannar-containar {
+    margin: 50px auto;
+    width: 81%;
+    max-width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/Images/bannar.png'), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.bannar-text {
+    width: 60%;
+    max-width: 740px;
+}
+
+.bannar-text h1 {
+    margin-bottom: 15px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.bannar-text p {
+    margin-bottom: 15px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.bannar-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    text-align:left;
+}
+
+.white {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    background: #FFF;
+    display: inline-flex;
+    text-align: start;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+/* header style end here */

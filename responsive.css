@@ -1,0 +1,51 @@
+/* for mobile devices */
+
+@media  screen and (max-width:600px) {
+ 
+    .navigation-containar{
+        width:90%;
+        max-width: 560px;
+        padding-top: 25px;
+    }
+    .site-name-icon{
+        width: 70%;
+        font-size: 1.4rem;
+        gap: 2px;
+    }
+    .navigation-links{
+        width: 30%;
+        justify-content:flex-end;
+    }
+    .navigation-links a{
+        display: none;
+    }
+    #icon{
+        display: contents;
+    }
+    .bannar-containar{
+        padding-top: 10px;
+        align-items: flex-start;
+        width: 90%;
+        max-width:504px;
+        background-size: cover;
+    }
+    .bannar-text{
+        width: 95%;
+        text-align: center;
+    }
+    .bannar-text h1 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+    .bannar-text p{
+        margin-bottom: 20px;
+    }
+   .bannar-buttons{
+    flex-direction: column;
+    gap: 30px;
+   }
+   .btn-primary{
+    width: 300px;
+   }
+
+}

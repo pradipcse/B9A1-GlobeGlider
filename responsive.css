@@ -2,7 +2,8 @@
 
 @media  screen and (max-width:600px) {
  
-    .navigation-containar{
+    .navigation-containar
+    {
         width:90%;
         max-width: 560px;
         padding-top: 25px;
@@ -47,5 +48,28 @@
    .btn-primary{
     width: 300px;
    }
-
+   
+   /* popular responsive here  */
+   .popular-containar{
+    margin-top: 80px;
+    width: 90%;
+    max-width: 504px;
+    flex-direction: column;
+   }
+   .popular-text,.popular-image{
+    width:90%;
+    max-width: 504px;
+   }
+  .popular-text .read-more{
+    width:150px;
+   }
+   .popular-image{
+    width: 100%;
+   }
+   .popular-text{
+    padding-left: 0px;
+   }
+   .popular-text h1{
+    font-size: 1.5rem;
+   }
 }

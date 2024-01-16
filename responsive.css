@@ -196,4 +196,14 @@
     .newsletter-images img{
         height: 100%;
     }
+
+
+    /* footer responsive */
+    .fdescription{
+        width: 95%;
+    }
+
+    .hori{
+        width:99%;
+    }
 }

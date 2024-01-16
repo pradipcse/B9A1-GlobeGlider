@@ -198,6 +198,46 @@
     }
 
 
+    .del-detail-containar{
+      width: 90%;
+      max-width: 560px;
+      height: 1650px;
+    }
+
+    .deals-header{
+        width: 90%;
+        max-width: 504px;
+    }
+    .deals-header h1{
+        font-size: 1.6rem;
+    }
+
+  .detail{
+    width: 90%;
+    max-width: 504px;
+  }
+
+  .detail img{
+    width: 100%;
+    height:450px;
+    object-fit: cover;
+  }
+  .d-icons {
+    padding:5px;
+    gap:10px;
+    flex-wrap: wrap;
+}
+  .c-detail{
+    width: 85%;
+    height: 350px;
+  }
+ .d-buton{
+    width:60%;
+ }
+
+
+
+
     /* footer responsive */
     .fdescription{
         width: 95%;
@@ -206,4 +246,7 @@
     .hori{
         width:99%;
     }
+
+
+
 }

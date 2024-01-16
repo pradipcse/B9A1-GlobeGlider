@@ -349,6 +349,89 @@ body {
 
 /* why-chose section style end here  */
 
+/* deasl-detail start here  */
+.del-detail-containar {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.deals-header {
+    width:52%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.deals-header h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.deals-header p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+
+.detail {
+    position: relative;
+}
+
+.detail img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.c-detail {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(0px);
+    width: 500px;
+    height: 350px;
+    flex-shrink: 0;
+    position: absolute;
+    padding: 10px;
+}
+
+.detail-card1,
+.detail-card3 {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+}
+
+.detail-card2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.d-icons div {
+    display: flex;
+    gap: 5px;
+    color: #FF5400;
+}
+
+.d-icons {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+
+/* deals-detail end here  */
+
 /* newsletter section style start here  */
 
 .newsletter-containar {
@@ -491,7 +574,7 @@ footer {
     font-weight: 400;
     line-height: 26px;
     /* 162.5% */
-    width:60%;
+    width: 60%;
     margin: 20px;
 }
 

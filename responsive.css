@@ -234,6 +234,9 @@
  .d-buton{
     width:60%;
  }
+ .detail-footer{
+    display: none;
+ }
 
 
 

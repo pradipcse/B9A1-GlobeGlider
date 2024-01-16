@@ -356,6 +356,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-self: center;
+    height: 1500px;
 
 }
 
@@ -428,6 +429,17 @@ body {
     display: flex;
     gap: 30px;
 }
+
+ .detail-footer{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+ }
+ .packages{
+    width: 200px;
+ }
 
 
 /* deals-detail end here  */
